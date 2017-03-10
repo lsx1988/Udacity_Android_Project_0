@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    tools:context="com.bignerdranch.android.project0.MainActivity">
-
-    <TextView
+    android:padding="10dp"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/app_list"
-        android:gravity="center"
-        android:layout_margin="20dp"/>
-    <Button
-        android:id="@+id/btn_movies"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/movies"
-        android:background="#2E3D49"
-        android:textColor="#FFF"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"/>
-    <Button
-        android:id="@+id/btn_stock"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/stock"
-        android:background="#2E3D49"
-        android:textColor="#FFF"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"/>
-    <Button
-        android:id="@+id/btn_reader"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/reader"
-        android:background="#2E3D49"
-        android:textColor="#FFF"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"/>
-    <Button
-        android:id="@+id/btn_news"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/news"
-        android:background="#2E3D49"
-        android:textColor="#FFF"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"/>
-    <Button
-        android:id="@+id/btn_project"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/final_project"
-        android:background="#2E3D49"
-        android:textColor="#FFF"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"/>
+        tools:context="com.bignerdranch.android.project0.MainActivity">
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_list"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/btn_movies"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/movies"
+            android:background="#2E3D49"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_stock"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stock"
+            android:background="#2E3D49"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_reader"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/reader"
+            android:background="#2E3D49"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_news"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/news"
+            android:background="#2E3D49"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_project"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/final_project"
+            android:background="#2E3D49"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>
