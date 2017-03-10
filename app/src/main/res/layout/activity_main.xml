@@ -18,51 +18,26 @@
             android:layout_height="wrap_content"
             android:text="@string/app_list"
             android:gravity="center"
-            android:layout_margin="20dp"/>
+            android:layout_margin="@dimen/margin_title"/>
         <Button
             android:id="@+id/btn_movies"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:text="@string/movies"
-            android:background="#2E3D49"
-            android:textColor="#FFF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"/>
+            style="@style/CustomBtnStyle"/>
         <Button
             android:id="@+id/btn_stock"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:text="@string/stock"
-            android:background="#2E3D49"
-            android:textColor="#FFF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"/>
+            style="@style/CustomBtnStyle"/>
         <Button
             android:id="@+id/btn_reader"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:text="@string/reader"
-            android:background="#2E3D49"
-            android:textColor="#FFF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"/>
+            style="@style/CustomBtnStyle"/>
         <Button
             android:id="@+id/btn_news"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:text="@string/news"
-            android:background="#2E3D49"
-            android:textColor="#FFF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"/>
+            style="@style/CustomBtnStyle"/>
         <Button
             android:id="@+id/btn_project"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
             android:text="@string/final_project"
-            android:background="#2E3D49"
-            android:textColor="#FFF"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"/>
+            style="@style/CustomBtnStyle"/>
     </LinearLayout>
 </ScrollView>
